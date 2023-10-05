@@ -29,7 +29,7 @@ for ds in dataSets:
 
     #transform the original categorical training features to numbers and add to the 4D array X. For instance Young = 1, Prepresbyopic = 2, Presbyopic = 3
     # so X = [[1, 1, 1, 1], [2, 2, 2, 2], ...]]
-    list_of_column_key_val_mappings = [{'Prepresbyopic': 0, 'Presbyopic': 1, 'Young': 2},
+    list_of_column_key_val_mappings = [{'Presbyopic': 0, 'Prepresbyopic': 1, 'Young': 2},
                                         {'Hypermetrope': 0, 'Myope': 1},
                                         {'No': 0, 'Yes': 1},
                                         {'Reduced': 0, 'Normal': 1},
